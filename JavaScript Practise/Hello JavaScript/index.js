@@ -103,21 +103,35 @@
 
 //(Use Constructures)
 
-function Counter(){
-    var count = 0;
-    this.incrementCounter = function(){
-        count++;
-    console.log(count);
-    }
-    this.decrementCounter= function(){
-        count--;
-        console.log(count);
-    }
-}
-var counter1 = new Counter();
+// function Counter(){
+//     var count = 0;
+//     this.incrementCounter = function(){
+//         count++;
+//     console.log(count);
+//     }
+//     this.decrementCounter= function(){
+//         count--;
+//         console.log(count);
+//     }
+// }
+// var counter1 = new Counter();
 
-counter1.incrementCounter();
-counter1.incrementCounter();
-counter1.incrementCounter();
-counter1.decrementCounter();
+// counter1.incrementCounter();
+// counter1.incrementCounter();
+// counter1.incrementCounter();
+// counter1.decrementCounter();
+
+
+
+// Function Statement
+function a(){
+    console.log("a called");
+}
+a()
+
+//Function Expression
+var b = function(){
+    console.log("b called")
+}
+b()
 
