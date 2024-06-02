@@ -123,7 +123,7 @@
 
 
 
-// Function Statement
+// Function Statement / Declaration
 function a(){
     console.log("a called");
 }
@@ -134,4 +134,11 @@ var b = function(){
     console.log("b called")
 }
 b()
+
+
+//Anonymous funtion
+ function (){
+
+ }
+ 
 
