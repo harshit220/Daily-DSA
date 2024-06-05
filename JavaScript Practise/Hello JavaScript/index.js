@@ -140,5 +140,13 @@ b()
  function (){
 
  }
+
+
+ //named Function Expression
+var b = function xyz(){
+    console.log('b called')
+}
+(xyz)
+
  
 
