@@ -148,5 +148,13 @@ var b = function xyz(){
 }
 (xyz)
 
- 
+ //Different btwn Parameters and Arguments??
+
+ var c = function(param1, param2){
+    console.log("c called")
+ }
+c(1,2)
+
+
+//First Class Functions
 
