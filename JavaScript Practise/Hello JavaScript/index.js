@@ -156,5 +156,11 @@ var b = function xyz(){
 c(1,2)
 
 
-//First Class Functions
+//First Class Functions : Abillity to used like value. 
+// First class citizen
+
+var d = function(param1, param2){
+    console.log("d called")
+ }
+d(1,2)
 
